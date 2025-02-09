@@ -1,0 +1,38 @@
+/* Container for the top movers list */
+.cpt-db-linker-top-movers {
+    text-align: center; /* Center-aligns the container */
+    font-family: 'Georgia', serif; /* Example of a fancy font */
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.cpt-db-linker-top-movers .mover-entry img {
+    display: block;
+    margin: 4em auto 4em auto; /* Centers the image and adds space below */
+    width: 80%; /* Adjusts image width relative to its container */
+    max-width: 600px; /* Ensures image doesn't exceed a certain width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Style the main heading */
+.cpt-db-linker-top-movers h1 {
+    font-size: 4.2em; /* Increased font size */
+    margin-top: 1.5em; /* Added top margin */
+    margin-bottom: 1em;
+}
+
+/* Style the mover entries */
+.cpt-db-linker-top-movers .mover-entry {
+    margin-bottom: 3.2em; /* Increased space between entries */
+    text-align: left; /* Left-aligns the text within each entry */
+}
+
+.cpt-db-linker-top-movers .mover-entry h2 {
+    font-size: 2.2em; /* Increased font size */
+    margin-bottom: 0.3em;
+}
+
+.cpt-db-linker-top-movers .mover-entry p {
+    font-size: 1.8em; /* Increased font size */
+    line-height: 1.6em;
+}
