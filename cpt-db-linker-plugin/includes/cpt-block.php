@@ -20,8 +20,9 @@ add_action( 'admin_menu', 'cpt_db_linker_custom_menu_page' );
  */
 function cpt_db_linker_menu_page_renderer() {
 	global $wpdb;
-	$table_name = $wpdb->prefix . 'movers_list';
+	$table_name = $wpdb->prefix . 'mover_info';
 
+	//Setting how to sort
 	// Query to retrieve the top 5 movers based on rating
 	$top_movers = $wpdb->get_results(
 		"
@@ -55,5 +56,3 @@ function cpt_db_linker_menu_page_renderer() {
 	}
 	echo '</div>';
 }
-
-
